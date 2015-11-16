@@ -27,6 +27,7 @@ alias psr='ps aux | grep ruby'
 # Moving around
 alias cdb='cd -'
 alias cls='clear;ls'
+alias work='cd ~/Documents/work'
 
 # Show human friendly numbers and colors
 alias df='df -h'
@@ -39,6 +40,7 @@ elif [[ $platform == 'darwin' ]]; then
   alias ll='ls -alGh'
   alias ls='ls -Gh'
 fi
+alias l='ls -Altr'
 
 # show me files matching "ls grep"
 alias lsg='ll | grep'
@@ -132,7 +134,7 @@ alias gdmb='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 # Common shell functions
 alias less='less -r'
 alias tf='tail -f'
-alias l='less'
+# alias l='less'
 alias lh='ls -alt | head' # see the last modified files
 alias screen='TERM=screen screen'
 alias cl='clear'
