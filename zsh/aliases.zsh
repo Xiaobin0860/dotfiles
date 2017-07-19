@@ -28,6 +28,11 @@ alias psr='ps aux | grep ruby'
 alias cdb='cd -'
 alias cls='clear;ls'
 alias work='cd ~/Documents/work'
+alias game='cd ~/Documents/work/game'
+alias pm='cd ~/Documents/work/game/pm'
+alias pmd='cd ~/Documents/work/game/pm/PocketMonsterClientDev'
+alias m='make'
+alias mt='make test'
 
 # Show human friendly numbers and colors
 alias df='df -h'
