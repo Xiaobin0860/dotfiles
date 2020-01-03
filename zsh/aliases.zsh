@@ -27,10 +27,11 @@ alias psr='ps aux | grep ruby'
 # Moving around
 alias cdb='cd -'
 alias cls='clear;ls'
-alias work='cd ~/Documents/work'
-alias game='cd ~/Documents/work/game'
-alias pm='cd ~/Documents/work/game/pm'
-alias pmd='cd ~/Documents/work/game/pm/PocketMonsterClientDev'
+alias work='cd ~/data/work'
+alias myself='cd ~/data/myself'
+alias game='cd ~/data/work/game'
+alias pm='cd ~/data/work/game/pm'
+alias shj='cd ~/data/work/game/shj'
 alias m='make'
 alias mt='make test'
 
@@ -42,8 +43,8 @@ if [[ $platform == 'linux' ]]; then
   alias ll='ls -alh --color=auto'
   alias ls='ls --color=auto'
 elif [[ $platform == 'darwin' ]]; then
-  alias ll='ls -alGh'
-  alias ls='ls -Gh'
+  alias ll='ls -alh --color=auto'
+  alias ls='ls -h --color=auto'
 fi
 alias l='ls -Altr'
 
